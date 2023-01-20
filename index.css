@@ -24,6 +24,32 @@ html {
   opacity: 0;
   animation: vem_feliz 2s ease-in-out 7s forwards;
 }
+@media screen and (max-width: 768px) {
+  .feliz {
+    font-size: 40px;
+    top: 30%;
+  }
+  .feliz2 {
+    font-size: 30px !important;
+    top: 60% !important;
+  }
+  .fogos > div.f1 {
+    left: 20%;
+    top: 35% !important;
+  }
+  .fogos > div.f2 {
+    left: 15%;
+    top: 85% !important;
+  }
+  .fogos > div.f3 {
+    right: 20%;
+    top: 35% !important;
+  }
+  .fogos > div.f4 {
+    right: 15%;
+    top: 85% !important;
+  }
+}
 .feliz2 {
   width: 100%;
   font-family: "Pacifico", cursive;
